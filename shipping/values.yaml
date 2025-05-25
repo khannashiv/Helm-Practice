@@ -4,6 +4,7 @@ image:
   pullPolicy: IfNotPresent
 appMessage: "Shipping Service"
 service:
+  type: ClusterIP
   port: 80
 serviceAccount:
   create: true
