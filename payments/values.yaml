@@ -5,3 +5,8 @@ image:
 appMessage: "Payments Service"
 service:
   port: 80
+serviceAccount:
+  create: true
+  name: ""
+  annotations: {}
+  automount: true
