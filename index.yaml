@@ -1,20 +1,9 @@
 apiVersion: v1
 entries:
-  payments:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-05-26T00:21:11.862396988+05:30"
-    description: A Helm chart for Kubernetes
-    digest: 672e89adbbd8d18324a2c9e5ee5cc9d459071cb968185d0258c6eec549a8fff4
-    name: payments
-    type: application
-    urls:
-    - https://khannashiv.github.io/Helm-Practice/payments-0.1.0.tgz
-    version: 0.1.0
   shipping:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-05-26T00:21:11.862836625+05:30"
+    created: "2025-05-26T00:32:10.73177797+05:30"
     description: A Helm chart for Kubernetes
     digest: cf15cdf6efbb47824d3fdb1c39099156ed844cf77f12a11e8617a28e395b87a1
     name: shipping
@@ -22,4 +11,4 @@ entries:
     urls:
     - https://khannashiv.github.io/Helm-Practice/shipping-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-26T00:21:11.861882917+05:30"
+generated: "2025-05-26T00:32:10.731314392+05:30"

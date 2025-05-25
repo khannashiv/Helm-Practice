@@ -10,3 +10,13 @@ serviceAccount:
   name: ""
   annotations: {}
   automount: true
+ingress:
+  enabled: false
+  annotations: {}
+  hosts:
+    - host: chart-example.local
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls: []
+
